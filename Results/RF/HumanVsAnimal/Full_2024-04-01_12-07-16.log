@@ -1,0 +1,24 @@
+Dataset: full but with the full params
+['Human', 'Animal']
+Params Used:
+n_estimators:  300
+max_depth:  40
+min_samples_split:  10
+min_samples_leaf:  1
+max_features:  log2
+Accuracy: 0.9740134744947064
+[[500  26]
+ [  1 512]]
+Training Accuracy: 99.88%
+Test Accuracy: 97.40%
+
+
+              precision    recall  f1-score   support
+
+       Human       1.00      0.95      0.97       526
+      Animal       0.95      1.00      0.97       513
+
+    accuracy                           0.97      1039
+   macro avg       0.97      0.97      0.97      1039
+weighted avg       0.98      0.97      0.97      1039
+

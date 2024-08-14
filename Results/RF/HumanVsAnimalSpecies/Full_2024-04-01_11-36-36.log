@@ -1,0 +1,28 @@
+Dataset: full 
+['Human', 'Horse', 'Dog', 'Cow']
+Params Used:
+n_estimators:  300
+max_depth:  30
+min_samples_split:  2
+min_samples_leaf:  2
+max_features:  sqrt
+Accuracy: 0.9393647738209817
+[[516   5   0  12]
+ [  7 217   0   9]
+ [  2   6  63   6]
+ [  5  11   0 180]]
+Training Accuracy: 99.98%
+Test Accuracy: 93.94%
+
+
+              precision    recall  f1-score   support
+
+       Human       0.97      0.97      0.97       533
+       Horse       0.91      0.93      0.92       233
+         Dog       1.00      0.82      0.90        77
+         Cow       0.87      0.92      0.89       196
+
+    accuracy                           0.94      1039
+   macro avg       0.94      0.91      0.92      1039
+weighted avg       0.94      0.94      0.94      1039
+

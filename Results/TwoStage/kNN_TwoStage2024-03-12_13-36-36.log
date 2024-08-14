@@ -1,0 +1,36 @@
+Dataset 1: But its really human vs animal 
+['Human', 'Horse', 'Dog', 'Cow']
+Test Accuracy: 98.46%
+[[517  16]
+ [  0 506]]
+
+
+              precision    recall  f1-score   support
+
+       Human       1.00      0.97      0.98       533
+      Animal       0.97      1.00      0.98       506
+
+    accuracy                           0.98      1039
+   macro avg       0.98      0.98      0.98      1039
+weighted avg       0.99      0.98      0.98      1039
+
+Adding 1 to labels
+Dataset2: Horse -1, Dog -2 and Cow - 3
+Test Accuracy: 95.40%
+[[  0  10   6   0]
+ [  0 231   2   0]
+ [  0   1  76   0]
+ [  0   2   3 191]]
+
+
+                       precision    recall  f1-score   support
+
+Human (Misclassified)       0.00      0.00      0.00        16
+                Horse       0.95      0.99      0.97       233
+                  Dog       0.87      0.99      0.93        77
+                  Cow       1.00      0.97      0.99       196
+
+             accuracy                           0.95       522
+            macro avg       0.71      0.74      0.72       522
+         weighted avg       0.93      0.95      0.94       522
+

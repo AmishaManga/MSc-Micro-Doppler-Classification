@@ -1,0 +1,48 @@
+Params Used Model 1:
+n_estimators: 300
+max_depth: 40
+min_samples_split: 10
+min_samples_leaf: 1
+max_features: log2
+Accuracy: 0.973051010587103
+Test Accuracy: 97.31%
+Train Accuracy: 99.83%
+[[506  27]
+ [  1 505]]
+
+
+              precision    recall  f1-score   support
+
+       Human       1.00      0.95      0.97       533
+      Animal       0.95      1.00      0.97       506
+
+    accuracy                           0.97      1039
+   macro avg       0.97      0.97      0.97      1039
+weighted avg       0.97      0.97      0.97      1039
+
+
+
+=====================================================================================================
+
+
+Adding 1 to labels
+Dataset2: Horse - 1, Dog - 2 and Cow - 3
+Test Accuracy: 94.17%
+Train Accuracy: 100.00%
+[[  0   9   3  15]
+ [  0 232   0   1]
+ [  0   0  77   0]
+ [  0   3   0 192]]
+
+
+                       precision    recall  f1-score   support
+
+Human (Misclassified)       0.00      0.00      0.00        27
+                Horse       0.95      1.00      0.97       233
+                  Dog       0.96      1.00      0.98        77
+                  Cow       0.92      0.98      0.95       195
+
+             accuracy                           0.94       532
+            macro avg       0.71      0.75      0.73       532
+         weighted avg       0.89      0.94      0.92       532
+

@@ -1,0 +1,40 @@
+Test Accuracy: 99.13%
+Train Accuracy: 100.00%
+[[525   8]
+ [  1 505]]
+
+
+              precision    recall  f1-score   support
+
+       Human       1.00      0.98      0.99       533
+      Animal       0.98      1.00      0.99       506
+
+    accuracy                           0.99      1039
+   macro avg       0.99      0.99      0.99      1039
+weighted avg       0.99      0.99      0.99      1039
+
+Params Used Model 2:
+n_estimators: 100
+max_depth: 40
+min_samples_split: 2
+min_samples_leaf: 1
+max_features: sqrt
+Test Accuracy: 97.27%
+Train Accuracy: 100.00%
+[[  0   1   0   7]
+ [  0 231   0   2]
+ [  0   0  75   1]
+ [  0   3   0 193]]
+
+
+                       precision    recall  f1-score   support
+
+Human (Misclassified)       0.00      0.00      0.00         8
+                Horse       0.98      0.99      0.99       233
+                  Dog       1.00      0.99      0.99        76
+                  Cow       0.95      0.98      0.97       196
+
+             accuracy                           0.97       513
+            macro avg       0.73      0.74      0.74       513
+         weighted avg       0.96      0.97      0.97       513
+

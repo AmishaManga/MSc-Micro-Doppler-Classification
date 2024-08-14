@@ -1,0 +1,25 @@
+Dataset 1: But its really human vs animal 
+['Human', 'Animal']
+Dataset:PCA 
+
+
+Params Used:
+C = 0.1
+kernel = Linear
+
+
+Test Accuracy: 98.85%
+Train Accuracy: 100.00%
+[[514   9]
+ [  3 513]]
+
+
+              precision    recall  f1-score   support
+
+       Human       0.99      0.98      0.99       523
+      Animal       0.98      0.99      0.99       516
+
+    accuracy                           0.99      1039
+   macro avg       0.99      0.99      0.99      1039
+weighted avg       0.99      0.99      0.99      1039
+

@@ -1,0 +1,24 @@
+Dataset: pca but with the pca params
+['Human', 'Animal']
+Params Used:
+n_estimators:  300
+max_depth:  10
+min_samples_split:  2
+min_samples_leaf:  4
+max_features:  sqrt
+Accuracy: 0.9566891241578441
+[[498  20]
+ [ 25 496]]
+Training Accuracy: 99.01%
+Test Accuracy: 95.67%
+
+
+              precision    recall  f1-score   support
+
+       Human       0.95      0.96      0.96       518
+      Animal       0.96      0.95      0.96       521
+
+    accuracy                           0.96      1039
+   macro avg       0.96      0.96      0.96      1039
+weighted avg       0.96      0.96      0.96      1039
+

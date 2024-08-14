@@ -1,0 +1,28 @@
+Dataset: pca 
+['Human', 'Horse', 'Dog', 'Cow']
+Params Used:
+n_estimators:  300
+max_depth:  30
+min_samples_split:  2
+min_samples_leaf:  1
+max_features:  sqrt
+Accuracy: 0.9066410009624639
+[[518   0   0   5]
+ [ 16 202   0   6]
+ [ 19   2  60   6]
+ [ 41   2   0 162]]
+Training Accuracy: 100.00%
+Test Accuracy: 90.66%
+
+
+              precision    recall  f1-score   support
+
+       Human       0.87      0.99      0.93       523
+       Horse       0.98      0.90      0.94       224
+         Dog       1.00      0.69      0.82        87
+         Cow       0.91      0.79      0.84       205
+
+    accuracy                           0.91      1039
+   macro avg       0.94      0.84      0.88      1039
+weighted avg       0.91      0.91      0.90      1039
+

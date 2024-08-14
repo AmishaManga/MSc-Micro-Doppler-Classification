@@ -1,0 +1,26 @@
+Dataset: Animals Only
+
+
+Params Used:
+C = 0.1
+kernel = Linear
+Gamma = 1
+
+
+Training Accuracy: 100.00%
+Test Accuracy: 96.42%
+[[232   0   1]
+ [  0  73   2]
+ [ 13   2 180]]
+
+
+              precision    recall  f1-score   support
+
+       Horse       0.95      1.00      0.97       233
+         Dog       0.97      0.97      0.97        75
+         Cow       0.98      0.92      0.95       195
+
+    accuracy                           0.96       503
+   macro avg       0.97      0.96      0.97       503
+weighted avg       0.97      0.96      0.96       503
+

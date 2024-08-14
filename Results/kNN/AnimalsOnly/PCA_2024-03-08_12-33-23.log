@@ -1,0 +1,21 @@
+Dataset: 
+['Horse', 'Dog', 'Cow']
+Params Used:
+K=1
+Training Accuracy: 100.00%
+Test Accuracy: 93.44%
+[[221  12   0]
+ [  2  77   1]
+ [  6  12 172]]
+
+
+              precision    recall  f1-score   support
+
+       Horse       0.97      0.95      0.96       233
+         Dog       0.76      0.96      0.85        80
+         Cow       0.99      0.91      0.95       190
+
+    accuracy                           0.93       503
+   macro avg       0.91      0.94      0.92       503
+weighted avg       0.94      0.93      0.94       503
+

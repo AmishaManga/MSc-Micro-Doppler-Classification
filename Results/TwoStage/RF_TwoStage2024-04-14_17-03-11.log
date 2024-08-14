@@ -1,0 +1,53 @@
+Full
+Dataset 1: But its really human vs animal 
+['Human', 'Horse', 'Dog', 'Cow']
+Params Used Model 1:
+n_estimators: 300
+max_depth: 40
+min_samples_split: 10
+min_samples_leaf: 1
+max_features: log2
+Accuracy: 0.973051010587103
+Test Accuracy: 97.31%
+Train Accuracy: 99.86%
+[[508  25]
+ [  3 503]]
+
+
+              precision    recall  f1-score   support
+
+       Human       0.99      0.95      0.97       533
+      Animal       0.95      0.99      0.97       506
+
+    accuracy                           0.97      1039
+   macro avg       0.97      0.97      0.97      1039
+weighted avg       0.97      0.97      0.97      1039
+
+Adding 1 to labels
+Dataset2: Horse - 1, Dog - 2 and Cow - 3
+Params Used Model 2:
+n_estimators: 100
+max_depth: 40
+min_samples_split: 2
+min_samples_leaf: 1
+max_features: sqrt
+Accuracy: 0.9393939393939394
+Test Accuracy: 93.94%
+Train Accuracy: 100.00%
+[[  0   6   0  19]
+ [  0 230   0   3]
+ [  0   2  75   0]
+ [  0   2   0 191]]
+
+
+                       precision    recall  f1-score   support
+
+Human (Misclassified)       0.00      0.00      0.00        25
+                Horse       0.96      0.99      0.97       233
+                  Dog       1.00      0.97      0.99        77
+                  Cow       0.90      0.99      0.94       193
+
+             accuracy                           0.94       528
+            macro avg       0.71      0.74      0.73       528
+         weighted avg       0.90      0.94      0.92       528
+

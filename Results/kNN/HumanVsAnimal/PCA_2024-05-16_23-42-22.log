@@ -1,0 +1,16 @@
+Dataset 1: But its really human vs animal 
+['Human', 'Animal']
+Test Accuracy: 97.59%
+[[502  21]
+ [  4 512]]
+
+
+              precision    recall  f1-score   support
+
+       Human       0.99      0.96      0.98       523
+      Animal       0.96      0.99      0.98       516
+
+    accuracy                           0.98      1039
+   macro avg       0.98      0.98      0.98      1039
+weighted avg       0.98      0.98      0.98      1039
+
